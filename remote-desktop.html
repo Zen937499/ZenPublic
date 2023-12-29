@@ -1,0 +1,2822 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remote Desktop - ZengridCloudService</title>
+  <meta name="description" content="">
+  <link href="assetshtml/img/favicon.ico" rel="shortcut icon">
+  <!-- Fonts -->
+  <link href="assetshtml/fonts/cloudicon/cloudicon.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/fonts/fontawesome/css/all.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/fonts/evafeat/evafeat.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <!-- RTL STYLES-->
+  <link href="assetshtml/css/rtl/bootstrap-rtl.min.css" disabled="true" rel="stylesheet" class="rtl">
+  <link href="assetshtml/css/rtl/style-rtl.min.css" disabled="true" rel="stylesheet" class="rtl">
+  <!-- CSS styles -->
+  <link href="assetshtml/css/bootstrap.min.css" rel="stylesheet" class="ltr" onload="if(media!='all')media='all'">
+  <link href="assetshtml/css/animate.min.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/css/magnific-popup.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/css/nouislider.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/css/style.min.css" rel="stylesheet">
+  <link href="assetshtml/css/slick.css" rel="stylesheet" onload="if(media!='all')media='all'">
+  <link href="assetshtml/css/custom.css" rel="stylesheet">
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="011376dd-09de-47d3-b71d-67dc9a2f69f3";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>  
+</head>
+<body>
+  <div class="box-container limit-width">
+    <!-- ***** SETTINGS ****** -->
+    <section id="settings"> </section>
+ <!-- ***** FRAME MODE ****** -->
+    <div class="body-borders" data-border="20">
+      <div class="top-border bg-white"></div>
+      <div class="right-border bg-white"></div>
+      <div class="bottom-border bg-white"></div>
+      <div class="left-border bg-white"></div>
+    </div>
+    <!-- ***** UPLOADED MENU FROM HEADER.HTML ***** -->
+    <header id="header"> </header>
+    <!-- ***** BANNER ***** -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="wrapper">
+              <h2 class="section-heading mergecolor" data-aos="fade-up" data-aos-duration="800"><span class="c-pink">OUR
+                  BEST &amp;
+                  CHEAPEST</span> REMOTE DESKTOP OFFERS<br><span id="typed1"></span></h2><br>
+              <span class="section-heading-plans">8GB RDP - 16GB RDP - 32GB RDP </span><br>
+              <div class="included mergecolor">
+                <ul>
+                  <li style="color: #6747d5 !important; " class="fs-6"><i class="fas fa-check-circle"></i> Managed &amp; Scalable - Instant RDP VPS Upgrades - CPU, RAM etc
+                  </li>
+                </ul>
+                <ul>
+                  <li style="color: #3a8621 !important; " class="fs-6"><i class="fas fa-check-circle"></i> Desktop For Windows Application</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <div class="services classic">
+              <div class="service-wrap">
+                <img class="svg" src="assetshtml/patterns/ddoslayers.svg" alt="Remote Desktop">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class=" blobleft svg d-none" src="assetshtml/img/background/blob.svg" alt="Blob Background">
+    <!-- ***** PRICING TABLES for only Desktop ***** -->
+    <section id="radioplans" class="tabs pricing special sec-normal sec-bg3  bg-seccolorstyle d-none d-lg-block d-xl-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="section-heading text-white mergecolor">Choose the available<b class="c-pink"> RDP</b>
+              plan</h2>
+            <p class="section-subheading text-white mergecolor">Select Desired Data Center Location</p>
+          </div>
+          <div class="tabs-header text-center mt-4" id="tabhead">
+            <ul class="btn-group">
+              <li class="btn btn-secondary active mb-2 me-3"></li>
+              <li class="btn btn-secondary mb-2 me-3">CANADA</li>
+              <li class="btn btn-secondary mb-2 me-3">GERMANY</li>
+              <li class="btn btn-secondary mb-2 me-3">UK</li>
+              <li class="btn btn-secondary mb-2 me-3">NETHERLANDS</li>
+              <li class="btn btn-secondary mb-2 me-3">SINGAPORE</li>
+              <li class="btn btn-secondary mb-2 me-3">AUSTRALIA</li>
+              <li class="btn btn-secondary mb-2 me-3">FRANCE</li>
+              <li class="btn btn-secondary mb-2 me-3">POLAND</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tabs-content">
+        <div class="tabs-item active show">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly">Half Yearly <span class="text-danger">(15%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly">Yearly <span class="text-danger">(20% Off)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                   
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor 4gbprice"><sup>$</sup>20.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=140" class="btn btn-default-yellow-fill 4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br> <span>WA, CA,
+                        UT, KS, TX, NY, GA, FL</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                   
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor 6gbprice"><sup>$</sup>29.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=3&amp;billingcycle=monthly&amp;configoption[21]=48" class="btn btn-default-yellow-fill 6gblink">Order now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA,
+                        CA, UT, KS, TX, NY, GA, FL</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                   
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor 8gbprice"><sup>$</sup>39.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=4&amp;billingcycle=monthly&amp;configoption[27]=64" class="btn btn-default-yellow-fill 8gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br> <span>WA, CA,
+                        UT, KS, TX, NY, GA, FL</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                   
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor 16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=26&amp;billingcycle=monthly&amp;configoption[33]=80" class="btn btn-default-yellow-fill 16gblink">Order now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA,
+                        CA, UT, KS, TX, NY, GA, FL</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">
+                   
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor 2gbprice"><sup>$</sup>14.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=14" class="btn btn-default-yellow-fill 2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA,
+                        CA, UT, KS, TX, NY, GA, FL</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-canada">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-canada">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-canada">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-canada">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor canada4gbprice"><sup>$</sup>20.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=142" class="btn btn-default-yellow-fill canada4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Canada</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor canada6gbprice"><sup>$</sup>29.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=3&amp;billingcycle=monthly&amp;configoption[21]=50" class="btn btn-default-yellow-fill canada6gblink">Order now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Canada</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor canada8gbprice"><sup>$</sup>39.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=4&amp;billingcycle=monthly&amp;configoption[27]=66" class="btn btn-default-yellow-fill canada8gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Canada</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor canada16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Canada</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">CANADA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/canada-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor canada2gbprice"><sup>$</sup>14.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=15" class="btn btn-default-yellow-fill canada2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Canada</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-germany">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-germany">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-germany">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-germany">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor germany4gbprice"><sup>$</sup>20.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=139" class="btn btn-default-yellow-fill germany4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Germany</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor germany6gbprice"><sup>$</sup>23.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=3&amp;billingcycle=monthly&amp;configoption[21]=166" class="btn btn-default-yellow-fill germany6gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Germany</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor germany8gbprice"><sup>$</sup>31.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=4&amp;billingcycle=monthly&amp;configoption[27]=167" class="btn btn-default-yellow-fill germany8gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Germany</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor germany16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Germany</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">GERMANY
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/germany-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor germany2gbprice"><sup>$</sup>14.95 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=16" class="btn btn-default-yellow-fill germany2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Germany</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UNITED
+                KINGDOM <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></h4><br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-uk">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-uk">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-uk">Half Yearly <span class="text-danger">(15%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-uk">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UK <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor uk4gbprice"><sup>$</sup>22.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=138" class="btn btn-default-yellow-fill uk4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br> <span>United
+                        Kingdom</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UK <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor uk6gbprice"><sup>$</sup>31.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=3&amp;billingcycle=monthly&amp;configoption[21]=104" class="btn btn-default-yellow-fill uk6gblink">Order now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>United Kingdom</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UK <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor uk8gbprice"><sup>$</sup>41.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=4&amp;billingcycle=monthly&amp;configoption[27]=105" class="btn btn-default-yellow-fill uk8gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br> <span>United
+                        Kingdom</span></li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UK <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor uk16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>United Kingdom</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">UK <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/united-kingdom-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor uk2gbprice"><sup>$</sup>16.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=17" class="btn btn-default-yellow-fill uk2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>United Kingdom</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-netherlands">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-netherlands">Quarterly <span class="text-danger">(10% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-netherlands">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-netherlands">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor netherlands4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=143" class="btn btn-default-yellow-fill netherlands4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Netherlands</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor netherlands6gbprice"><sup>$</sup>23.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=3&amp;billingcycle=monthly&amp;configoption[21]=102" class="btn btn-default-yellow-fill netherlands6gblink">Order now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Netherlands</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor netherlands8gbprice"><sup>$</sup>31.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=4&amp;billingcycle=monthly&amp;configoption[27]=103" class="btn btn-default-yellow-fill netherlands8gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Netherlands</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor netherlands16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Netherlands</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">NETHERLANDS
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/netherlands-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor netherlands2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=106" class="btn btn-default-yellow-fill netherlands2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Netherlands</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-singapore">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-singapore">Quarterly <span class="text-danger">(10% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-singapore">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-singapore">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor singapore4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=144" class="btn btn-default-yellow-fill singapore4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Singapore</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor singapore6gbprice"><sup>$</sup>29.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Singapore</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor singapore8gbprice"><sup>$</sup>39.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Singapore</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor singapore16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Singapore</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">SINGAPORE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/singapore-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor singapore2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=108" class="btn btn-default-yellow-fill singapore2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Singapore</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-australia">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-australia">Quarterly <span class="text-danger">(10% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-australia">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-australia">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor australia4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=145" class="btn btn-default-yellow-fill australia4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Australia</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor australia6gbprice"><sup>$</sup>29.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Australia</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor australia8gbprice"><sup>$</sup>39.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Australia</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor australia16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Australia</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">AUSTRALIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/australia-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor australia2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Australia</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-france">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-france">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-france">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-france">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor france4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=146" class="btn btn-default-yellow-fill france4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>France</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor france6gbprice"><sup>$</sup>29.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>France</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor france8gbprice"><sup>$</sup>39.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>France</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor france16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>France</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">FRANCE
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/france-flag-icon.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor france2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=165" class="btn btn-default-yellow-fill france2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>France</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-poland">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-poland">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-poland">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-poland">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor poland4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=147" class="btn btn-default-yellow-fill poland4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Poland</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor poland6gbprice"><sup>$</sup>41.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Poland</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor poland8gbprice"><sup>$</sup>51.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>Poland</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor poland16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Poland</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">POLAND
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/Poland.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor poland2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=134" class="btn btn-default-yellow-fill poland2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>Poland</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+          <div class="tabs-item active redb">
+          <div class="col-md-12 text-center mt-4">
+            <h4 class="seccolor">Location <a class="golink" style=" background-color: white;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></h4>
+            <br>
+            <div class="mt-4">
+              <ul class="btn-group">
+                <li class="btn btn-secondary active mb-2 me-3" id="tmonthly-india">Monthly</li>
+                <li class="btn btn-secondary mb-2 me-3" id="tquarterly-india">Quarterly <span class="text-danger">(10%
+                    Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="thalfyearly-india">Half Yearly <span class="text-danger">(15% Off)</span></li>
+                <li class="btn btn-secondary mb-2 me-3" id="tyearly-india">Yearly <span class="text-danger">(20%
+                    Off)</span></li>
+              </ul>
+            </div>
+          </div>
+          <section class="slick pt-0 bg-seccolorstyle">
+            <div id="slider" class="my-slider">
+              
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                    <div class="title">4 GB RDP</div>
+                    <div class="fromer seccolor">Best Value</div>
+                    <div class="price mergecolor india4gbprice"><sup>$</sup>16.99 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=2&amp;billingcycle=monthly&amp;configoption[52]=177" class="btn btn-default-yellow-fill india4gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>india</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>35GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span>4 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">6 GB RDP</div>
+                    <div class="fromer seccolor">Premium Quality</div>
+                    <div class="price mergecolor india6gbprice"><sup>$</sup>41.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>india</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>2 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>40GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>6 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">8 GB RDP</div>
+                    <div class="fromer seccolor">Memory Boost</div>
+                    <div class="price mergecolor india8gbprice"><sup>$</sup>51.99 <span class="period">/mo</span></div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-purple">
+                    <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br>
+                      <span>india</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>50GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-c-pink">RAM</span><br> <span>8 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle" style="background-color: #f0f0f0 !important">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></div>
+                    <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+                    <div class="title">16 GB RDP</div>
+                    <div class="fromer seccolor">Big Box</div>
+                    <div class="price mergecolor india16gbprice"><sup>$</sup>79.99 <span class="period">/mo</span>
+                    </div>
+                    <a href="" class="btn btn-default-yellow-fill" style="pointer-events: none;background-color: #cccccc !important;color: #666666 !important;">Out
+                      of Stock</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>india</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>6 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>100GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                        Bandwidth</span></li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>16 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="plan-container">
+                <div class="wrapper noshadow">
+                  <div class="top-content bg-colorstyle">
+                    <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;">INDIA
+                        <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="assetshtml/fonts/svg/india.svg" alt=""></a></div>
+                    <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+                    <div class="title">2 GB RDP</div>
+                    <div class="fromer seccolor">Basic Needs</div>
+                    <div class="price mergecolor india2gbprice"><sup>$</sup>11.95 <span class="period">/mo</span></div>
+                    <a href="https://SHIeD3Q6UGdU.net/cart.php?a=add&amp;pid=5&amp;billingcycle=monthly&amp;configoption[9]=176" class="btn btn-default-yellow-fill india2gblink">Order Now</a>
+                  </div>
+                  <ul class="list-info bg-pink">
+                    <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br>
+                      <span>india</span>
+                    </li>
+                    <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>1 CPU
+                        vCore</span></li>
+                    <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>25GB
+                        SSD</span></li>
+                    <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>3TB
+                        Bandwidth</span> </li>
+                    <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>2 GB DDR 4
+                        RAM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- ***** PRICING TABLES for only Mobile ***** -->
+    <section class="slick sec-normal pt-4 bg-seccolorstyle d-lg-none d-xl-none">
+      <div id="slider">
+        <div class="col-md-12 text-center">
+          <h2 class="section-heading text-white mergecolor">Choose the available<b class="c-pink"> RDP</b>
+            plan</h2>
+        </div>
+        <div class="plan-container">
+          <div class="wrapper noshadow">
+            <div class="top-content bg-colorstyle" style="padding: 20px 10px 10px;">
+              <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;"> <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="" alt=""></a></div>
+              <div><img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt=""></div>
+              <div class="title">8 GB RDP</div>
+              <div class="fromer seccolor">Basic Needs</div>
+              <div class="price mergecolor"><sup>Inr</sup>350 <span class="period">/mo</span></div>
+              <a href="./index.html" class="btn btn-default-yellow-fill">Order Now</a>
+            </div>
+            <ul class="list-info bg-pink" style="padding: 20px 10px 10px;">
+              <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA, CA, UT,
+                  KS, TX, NY, GA, FL</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>4 CPU vCore</span>
+              </li>
+              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>160 GB Nvme SSD</span>
+              </li>
+              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                  Bandwidth</span> </li>
+              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>8 GB DDR 4 RAM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="plan-container">
+          <div class="wrapper noshadow">
+            <div class="top-content bg-colorstyle" style="padding: 20px 10px 10px;">
+              <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;"> <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="" alt=""></a></div>
+              <img class="svg mb-3" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+              <div class="title">16 GB RDP</div>
+              <div class="fromer seccolor">Best Value</div>
+              <div class="price mergecolor"><sup>Inr</sup>450 <span class="period">/mo</span></div>
+              <a href="./index.html" class="btn btn-default-yellow-fill">Order Now</a>
+            </div>
+            <ul class="list-info bg-purple" style="padding: 20px 10px 10px;">
+              <li><i class="icon-location"></i> <span class="c-pink">LOCATION</span><br> <span>WA, CA, UT,
+                  KS, TX, NY, GA, FL</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-pink">CPU</span><br> <span>4 CPU vCore</span></li>
+              <li><i class="icon-drives"></i> <span class="c-pink">DISK</span><br> <span>250GB Nvme SSD</span>
+              </li>
+              <li><i class="icon-speed"></i> <span class="c-pink">DATA</span><br> <span>5TB Bandwidth</span>
+              </li>
+              <li><i class="icon-ram"></i> <span class="c-pink">RAM</span><br> <span> 16 GB DDR 4 RAM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="plan-container">
+          <div class="wrapper noshadow">
+            <div class="top-content bg-colorstyle" style="padding: 20px 10px 10px;">
+              <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;"> <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="" alt=""></a></div>
+              <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+              <div class="title">32 GB RDP</div>
+              <div class="fromer seccolor">Premium Quality</div>
+              <div class="price mergecolor"><sup>Inr</sup>600 <span class="period">/mo</span></div>
+              <a href="./index.html" class="btn btn-default-yellow-fill">Order now</a>
+            </div>
+            <ul class="list-info bg-pink" style="padding: 20px 10px 10px;">
+              <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA, CA, UT,
+                  KS, TX, NY, GA, FL</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>4 CPU vCore</span>
+              </li>
+              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>350 GB Nvme SSD</span>
+              </li>
+              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                  Bandwidth</span></li>
+              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>32 GB DDR 4 RAM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plan-container">
+          <div class="wrapper noshadow">
+            <div class="top-content bg-colorstyle" style="padding: 20px 10px 10px;">
+              <div class="plans badge feat"><a style="color:#4c4a4a;padding: 8px 15px;border-radius: 50px;font-size: 20px;"> <img style="width: 20px;vertical-align: baseline;box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);" src="" alt=""></a></div>
+              <img class="svg mb-3" src="assetshtml/fonts/svg/vps.svg" alt="">
+              <div class="title">32 GB RDP</div>
+              <div class="fromer seccolor">Big Box</div>
+              <div class="price mergecolor"><sup>Inr</sup>800 <span class="period">/mo</span></div>
+              <a href="./index.html" class="btn btn-default-yellow-fill">Order now</a>
+            </div>
+            <ul class="list-info bg-pink" style="padding: 20px 10px 10px;">
+              <li><i class="icon-location"></i> <span class="c-purple">LOCATION</span><br> <span>WA, CA, UT,
+                  KS, TX, NY, GA, FL</span></li>
+              <li><i class="icon-cpu"></i> <span class="c-purple">CPU</span><br> <span>8 CPU vCore</span>
+              </li>
+              <li><i class="icon-drives"></i> <span class="c-purple">DISK</span><br> <span>450GB Nvme SSD</span>
+              </li>
+              <li><i class="icon-speed"></i> <span class="c-purple">DATA</span><br> <span>5TB
+                  Bandwidth</span></li>
+              <li><i class="icon-ram"></i> <span class="c-purple">RAM</span><br> <span>32 GB DDR 4
+                  RAM</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+         <!-- ***** Go to link ***** -->
+         <section class="help pt-4 notoppadding pb-80 bg-colorstyle">
+          <div class="container">
+            <div class="service-wrap">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="help-container bg-seccolorstyle noshadow">
+                    <div class="plans badge feat left bg-grey"><i class="fas fa-long-arrow-alt-left"></i></div>
+                    <a href="./index.html" class="help-item">
+                      <div class="img">
+                        <img class="svg ico" src="assetshtml/fonts/svg/cloudfiber.svg" alt="">
+                      </div>
+                      <div class="inform">
+                        <div class="title mergecolor">Go to CPU Optimized RDP </div>
+                        <div class="description seccolor">Windows RDP for Dedicated CPU.</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="help-container bg-seccolorstyle noshadow">
+                    <div class="plans badge feat bg-grey"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <a href="index.html" class="help-item">
+                      <div class="img">
+                        <img class="svg ico" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                      </div>
+                      <div class="inform">
+                        <div class="title mergecolor">Go to 10GBPS Windows RDP</div>
+                        <div class="description seccolor">Need More Powerful High Speed RDP?</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- ***** WHY CHOOSE ZengridCloudService ***** -->
+    <section class="services sec-normal scrollme motpath toppadding bg-colorstyle">
+      <div class="container">
+        <div class="service-wrap">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="section-heading mergecolor"><b class="c-pink">ZengridCloudService</b> give you more feature
+              </h2>
+              <p class="section-subheading mergecolor">We offer , Canada, Germany, United Kingdom,
+                Netherlands, Singapore, Australia &amp; France RDP.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatex="-60" data-easeinout="0">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <div class="plans badge feat bg-purple">online</div>
+                <img class="svg" src="assetshtml/fonts/svg/dedicated.svg" alt="">
+                <div class="title mergecolor">SSD drives for all plans</div>
+                <p class="subtitle seccolor">
+                  All our nodes have blazing RAID 10 SSD performance &amp; mirroring, this ensures the best disk
+                  speed and
+                  safety of data.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="60" data-easeinout="0">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <img class="svg" src="assetshtml/fonts/svg/switch.svg" alt="">
+                <div class="title mergecolor">Instant Setup</div>
+                <p class="subtitle seccolor">
+                  All of our Remote Desktop plans are set up instantly after purchase. RDP access details
+                  will be
+                  delivered by email automatically.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatex="60" data-easeinout="0">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <div class="plans badge feat bg-pink">Support</div>
+                <img class="svg" src="assetshtml/fonts/svg/support.svg" alt="">
+                <div class="title mergecolor">Amazing Support</div>
+                <p class="subtitle seccolor">
+                  Our staff will go above and beyond to resolve any technical issues and make sure you get
+                  the most out
+                  of your service, as soon as possible.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <img class="svg" src="assetshtml/fonts/svg/security.svg" alt="">
+                <div class="title mergecolor">Secure &amp; Private</div>
+                <p class="subtitle seccolor">
+                  We respect your privacy &amp; don't access services unless requested. Strong Firewall Security
+                  and DDoS
+                  attack protected.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <div class="plans badge feat bg-grey">Guarantee</div>
+                <img class="svg" src="assetshtml/fonts/svg/filter.svg" alt="">
+                <div class="title mergecolor">99.99% Uptime Guarantee</div>
+                <p class="subtitle seccolor">
+                  All our Remote Desktop plans have 99.99% uptime guarantee. We also offer DDoS protection
+                  services to
+                  ensure your service is up during an attack.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="service-section bg-seccolorstyle noshadow">
+                <div class="plans badge feat bg-pink">panel</div>
+                <img class="svg" src="assetshtml/fonts/svg/database.svg" alt="">
+                <div class="title mergecolor">Premium datacenters</div>
+                <p class="subtitle seccolor">
+                  We operate out of the best datacenters at all of our locations, which ensures the best
+                  network and
+                  uptime for all our services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Video ***** -->
+    <section id="features" class="history-section feat01 sec-normal sec-bg2 bg-colorstyle">
+      <div class="container">
+        <div class="sec-main sec-bg1 bg-colorstyle noshadow">
+          <div class="row">
+            <div class="col-sm-12 text-center pb-3">
+              <h2 class="section-heading mergecolor"><b class="c-pink">ZengridCloudService RDP in Action</b>
+              </h2>
+            </div>
+            <div class="col-md-12 text-center">
+              <video width="100%" controls="">
+                <source src="rdp-video.mp4" type="video/mp4">
+            </video>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** FAQ. ***** -->
+    <section class="sec-normal sec-bg1 bg-seccolorstyle bottomhalfpadding">
+      <div class="faq">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <h2 class="section-heading mergecolor">Frequently Asked Questions</h2>
+              <p class="section-subheading mergecolor">About Various windows RDP Plans and Features.</p>
+            </div>
+            <div class="col-sm-12">
+              <div class="accordion faq pt-5">
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor active">
+                    <span>01. Can I install bulk email sender in RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse" style="display: block;">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. Of course, you are free to install any bulk email sender application
+                              inside RDP. Any
+                              mail sender will work and you must have to configure SMTP well. Let us know if
+                              you face
+                              any problem configuring, we will help.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>02. What is admin access RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. We provide full admin access with all our RDP plans. You are the
+                              administrator and
+                              you can install any programs inside RDP. This is, in fact, an admin rdp.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>03. How to hide my identity using RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. You can easily browse website from within RDP. You do not have to share
+                              your
+                              identity and those website you visit will see the IP of the remote desktop. So
+                              you will
+                              hide your identity in a new way using RDP. You can also use your RDP as a VPN.
+                              So it is
+                              also a VPN RDP.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>04. Which RDP is best for me?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. Most of the RDP provider provides RDP as Remote Desktop account.
+                              Actually, they
+                              create multiple accounts on the same RDP and provide access to multiple users.
+                              This will
+                              lower the performance of RDP. You should choose the dedicated RDP which is not
+                              shared with
+                              other users.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>05. Can I run automated bot or script inside RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. Yes, you can. You are the administrator and you can install any
+                              program/script
+                              inside RDP. You can run that simultaneously without any performance problem.
+                              In most cased
+                              4GB RDP is the best. You can also run SEO tools and other programs that need
+                              to run for a
+                              long time inside RDP.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>06. How can I buy a cheap RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. We accept major payment methods. You can purchase RDP using any card,
+                              PayPal,
+                              PerfectMoney, Bitcoin. Inform us if you find any difficulty owning a cheap RDP
+                              from us.
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>07. Do i need any third party software to work with RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. You do not need to install any 3rd party software/application to work
+                              with RDP. You
+                              just need to open Remote Desktop Connection (built-in with all version of
+                              windows) and
+                              insert RDP credentials provided by us. You can find Remote Desktop Connection
+                              by pressing
+                              Start - Accessories - Remote Desktop Connection.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>08. Do i have to keep my PC open while using RDP?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. Remote Desktop is installed and run on a server which is open for 24
+                              hours a day and
+                              7 days a week(24/7). So you don't need to open your PC while running any
+                              software/application on RDP.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-wrap">
+                  <div class="panel-title seccolor">
+                    <span>09. How ZengridCloudService RDP differs from other provider's?</span>
+                    <div class="float-end">
+                      <i class="fa fa-plus"></i>
+                      <i class="fa fa-minus c-pink"></i>
+                    </div>
+                  </div>
+                  <div class="panel-collapse">
+                    <div class="wrapper-collapse">
+                      <div class="info">
+                        <ul class="list seccolor">
+                          <li>
+                            <p>Ans. We provide dedicated resources to every RDP. Your RDP is not shared with
+                              anyone. On the other hand OTHER PROVIDER provides 15USD package RDP which is
+                              shared with multiple persons. It is using VPS domain forwarding. So you do not
+                              have dedicated IP in OTHER PROVIDER's RDP. Whereas you will get dedicated RAM
+                              and IP in all our ZengridCloudService plans. Also, our RDP is very cheap compared to
+                              OTHERS.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** full wide contact section ***** -->
+    <div class="mb-0fade show" style="background: linear-gradient(148deg, rgb(46 149 164) 0%, rgb(51 93 144) 50%, rgb(42 123 194) 100%);text-align: center;padding: 18px 0px 8px 0px !important;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 style="font-weight:bold"><span style="color:#ffffff !important">Still Confused 🤔 Message Me</span>
+              <a href="./index.html" target="_blank"><img style="width:80px;>
+              </a>
+              </h4>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ***** UPLOADED FOOTER FROM FOOTER.HTML ***** -->
+    <footer id="footer"> </footer>
+  </div>
+  <!-- ***** BUTTON GO TOP ***** -->
+  <a href="#0" class="cd-top"> <i class="fas fa-angle-up"></i> </a>
+  <!-- Javascript -->
+  <script src="assetshtml/js/jquery.min.js"></script>
+  <script defer="" src="assetshtml/js/popper.min.js"></script>
+  <script defer="" src="assetshtml/js/bootstrap.min.js"></script>
+  <script defer="" src="assetshtml/js/jquery.countdown.js"></script>
+  <script defer="" src="assetshtml/js/jquery.magnific-popup.min.js"></script>
+  <script defer="" src="assetshtml/js/slick.min.js"></script>
+  <script defer="" src="assetshtml/js/flickity.pkgd.min.js"></script>
+  <script defer="" src="assetshtml/js/flickity-fade.min.js"></script>
+  <script defer="" src="assetshtml/js/aos.min.js"></script>
+  <script defer="" src="assetshtml/js/nouislider.min.js"></script>
+  <script defer="" src="assetshtml/js/isotope.min.js"></script>
+  <script defer="" src="assetshtml/js/jquery.scrollme.min.js"></script>
+  <script src="assetshtml/js/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="assetshtml/js/swiper.min.js"></script>
+  <script defer="" src="assetshtml/js/scripts.min.js"></script>
+  <script defer="" src="assetshtml/js/settings-init.js"></script>
+  <script defer="" src="assetshtml/js/countMe.min.js"></script>
+  <script defer="" src="assetshtml/js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () { $('.redb').removeClass('active'); }, 5000);
+      $("#tmonthly").click(function () {
+        $('#tmonthly').addClass('active');
+        $('#tquarterly').removeClass('active');
+        $('#thalfyearly').removeClass('active');
+        $('#tyearly').removeClass('active');
+        $('.2gbprice').html('<sup>$</sup>14.95 <span class="period">/mo</span>');
+        $('.4gbprice').html('<sup>$</sup>20.99 <span class="period">/mo</span>');
+        $('.6gbprice').html('<sup>$</sup>29.99 <span class="period">/mo</span>');
+        $('.8gbprice').html('<sup>$</sup>39.99 <span class="period">/mo</span>');
+        $('.16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=14");
+        $(".4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=140");
+        $(".6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=monthly&configoption[21]=48");
+        $(".8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=monthly&configoption[27]=64");
+        $(".16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=monthly&configoption[33]=80")
+      });
+      $("#tquarterly").click(function () {
+        $('#tquarterly').addClass('active');
+        $('#tmonthly').removeClass('active');
+        $('#thalfyearly').removeClass('active');
+        $('#tyearly').removeClass('active');
+        $('.2gbprice').html('<sup>$</sup>13.65 <span class="period">/mo</span>');
+        $('.4gbprice').html('<sup>$</sup>18.92 <span class="period">/mo</span>');
+        $('.6gbprice').html('<sup>$</sup>26.99 <span class="period">/mo</span>');
+        $('.8gbprice').html('<sup>$</sup>35.99 <span class="period">/mo</span>');
+        $('.16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=14");
+        $(".4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=140");
+        $(".6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=quarterly&configoption[21]=48");
+        $(".8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=quarterly&configoption[27]=64");
+        $(".16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=quarterly&configoption[33]=80");
+      });
+      $("#thalfyearly").click(function () {
+        $('#thalfyearly').addClass('active');
+        $('#tmonthly').removeClass('active');
+        $('#tquarterly').removeClass('active');
+        $('#tyearly').removeClass('active');
+        $('.2gbprice').html('<sup>$</sup>12.71 <span class="period">/mo</span>');
+        $('.4gbprice').html('<sup>$</sup>17.83 <span class="period">/mo</span>');
+        $('.6gbprice').html('<sup>$</sup>25.50 <span class="period">/mo</span>');
+        $('.8gbprice').html('<sup>$</sup>33.99 <span class="period">/mo</span>');
+        $('.16gbprice').html('<sup>$</sup>75.00 <span class="period">/mo</span>');
+        $(".2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=14");
+        $(".4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=140");
+        $(".6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=semiannually&configoption[21]=48");
+        $(".8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=semiannually&configoption[27]=64");
+        $(".16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=semiannually&configoption[33]=80");
+      });
+      $("#tyearly").click(function () {
+        $('#tyearly').addClass('active');
+        $('#tmonthly').removeClass('active');
+        $('#tquarterly').removeClass('active');
+        $('#thalfyearly').removeClass('active');
+        $('.2gbprice').html('<sup>$</sup>11.96 <span class="period">/mo</span>');
+        $('.4gbprice').html('<sup>$</sup>16.75 <span class="period">/mo</span>');
+        $('.6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=14");
+        $(".4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=140");
+        $(".6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=annually&configoption[21]=48");
+        $(".8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=annually&configoption[27]=64");
+        $(".16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=annually&configoption[33]=80");
+      });
+
+      $("#tmonthly-canada").click(function () {
+        $('#tmonthly-canada').addClass('active');
+        $('#tquarterly-canada').removeClass('active');
+        $('#thalfyearly-canada').removeClass('active');
+        $('#tyearly-canada').removeClass('active');
+        $('.canada2gbprice').html('<sup>$</sup>14.95 <span class="period">/mo</span>');
+        $('.canada4gbprice').html('<sup>$</sup>20.99 <span class="period">/mo</span>');
+        $('.canada6gbprice').html('<sup>$</sup>29.99 <span class="period">/mo</span>');
+        $('.canada8gbprice').html('<sup>$</sup>39.99 <span class="period">/mo</span>');
+        $('.canada16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".canada2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=15");
+        $(".canada4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=142");
+        $(".canada6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=monthly&configoption[21]=50");
+        $(".canada8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=monthly&configoption[27]=66");
+        $(".canada16gblink").attr("href", "");
+      });
+      $("#tquarterly-canada").click(function () {
+        $('#tquarterly-canada').addClass('active');
+        $('#tmonthly-canada').removeClass('active');
+        $('#thalfyearly-canada').removeClass('active');
+        $('#tyearly-canada').removeClass('active');
+        $('.canada2gbprice').html('<sup>$</sup>13.65 <span class="period">/mo</span>');
+        $('.canada4gbprice').html('<sup>$</sup>18.92 <span class="period">/mo</span>');
+        $('.canada6gbprice').html('<sup>$</sup>26.99 <span class="period">/mo</span>');
+        $('.canada8gbprice').html('<sup>$</sup>35.99 <span class="period">/mo</span>');
+        $('.canada16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".canada2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=15");
+        $(".canada4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=142");
+        $(".canada6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=quarterly&configoption[21]=50");
+        $(".canada8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=quarterly&configoption[27]=66");
+        $(".canada16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=quarterly&configoption[33]=82");
+      });
+      $("#thalfyearly-canada").click(function () {
+        $('#thalfyearly-canada').addClass('active');
+        $('#tmonthly-canada').removeClass('active');
+        $('#tquarterly-canada').removeClass('active');
+        $('#tyearly-canada').removeClass('active');
+        $('.canada2gbprice').html('<sup>$</sup>12.71 <span class="period">/mo</span>');
+        $('.canada4gbprice').html('<sup>$</sup>17.83 <span class="period">/mo</span>');
+        $('.canada6gbprice').html('<sup>$</sup>25.50 <span class="period">/mo</span>');
+        $('.canada8gbprice').html('<sup>$</sup>33.99 <span class="period">/mo</span>');
+        $('.canada16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".canada2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=15");
+        $(".canada4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=142");
+        $(".canada6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=semiannually&configoption[21]=50");
+        $(".canada8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=semiannually&configoption[27]=66");
+        $(".canada16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=semiannually&configoption[33]=82");
+      });
+      $("#tyearly-canada").click(function () {
+        $('#tyearly-canada').addClass('active');
+        $('#tmonthly-canada').removeClass('active');
+        $('#tquarterly-canada').removeClass('active');
+        $('#thalfyearly-canada').removeClass('active');
+        $('.canada2gbprice').html('<sup>$</sup>11.96 <span class="period">/mo</span>');
+        $('.canada4gbprice').html('<sup>$</sup>16.75 <span class="period">/mo</span>');
+        $('.canada6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.canada8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.canada16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".canada2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=15");
+        $(".canada4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=142");
+        $(".canada6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=annually&configoption[21]=50");
+        $(".canada8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=annually&configoption[27]=66");
+        $(".canada16gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=26&billingcycle=annually&configoption[33]=82");
+      });
+
+      $("#tmonthly-germany").click(function () {
+        $('#tmonthly-germany').addClass('active');
+        $('#tquarterly-germany').removeClass('active');
+        $('#thalfyearly-germany').removeClass('active');
+        $('#tyearly-germany').removeClass('active');
+        $('.germany2gbprice').html('<sup>$</sup>14.95 <span class="period">/mo</span>');
+        $('.germany4gbprice').html('<sup>$</sup>20.99 <span class="period">/mo</span>');
+        $('.germany6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.germany8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.germany16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".germany2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=139");
+        $(".germany4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=139");
+        $(".germany6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=monthly&configoption[21]=166");
+        $(".germany8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=monthly&configoption[27]=167");
+        $(".germany16gblink").attr("href", "");
+      });
+      $("#tquarterly-germany").click(function () {
+        $('#tquarterly-germany').addClass('active');
+        $('#tmonthly-germany').removeClass('active');
+        $('#thalfyearly-germany').removeClass('active');
+        $('#tyearly-germany').removeClass('active');
+        $('.germany2gbprice').html('<sup>$</sup>13.66 <span class="period">/mo</span>');
+        $('.germany4gbprice').html('<sup>$</sup>18.92 <span class="period">/mo</span>');
+        $('.germany6gbprice').html('<sup>$</sup>21.33 <span class="period">/mo</span>');
+        $('.germany8gbprice').html('<sup>$</sup>26.66 <span class="period">/mo</span>');
+        $('.germany16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".germany2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=16");
+        $(".germany4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=139");
+        $(".germany6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=quarterly&configoption[21]=166");
+        $(".germany8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=quarterly&configoption[27]=167");
+        $(".germany16gblink").attr("href", "");
+      });
+      $("#thalfyearly-germany").click(function () {
+        $('#thalfyearly-germany').addClass('active');
+        $('#tmonthly-germany').removeClass('active');
+        $('#tquarterly-germany').removeClass('active');
+        $('#tyearly-germany').removeClass('active');
+        $('.germany2gbprice').html('<sup>$</sup>12.71 <span class="period">/mo</span>');
+        $('.germany4gbprice').html('<sup>$</sup>17.83 <span class="period">/mo</span>');
+        $('.germany6gbprice').html('<sup>$</sup>20.33 <span class="period">/mo</span>');
+        $('.germany8gbprice').html('<sup>$</sup>27.17 <span class="period">/mo</span>');
+        $('.germany16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".germany2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=16");
+        $(".germany4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=139");
+        $(".germany6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=semiannually&configoption[21]=166");
+        $(".germany8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=semiannually&configoption[27]=167");
+        $(".germany16gblink").attr("href", "");
+      });
+      $("#tyearly-germany").click(function () {
+        $('#tyearly-germany').addClass('active');
+        $('#tmonthly-germany').removeClass('active');
+        $('#tquarterly-germany').removeClass('active');
+        $('#thalfyearly-germany').removeClass('active');
+        $('.germany2gbprice').html('<sup>$</sup>11.96 <span class="period">/mo</span>');
+        $('.germany4gbprice').html('<sup>$</sup>16.75 <span class="period">/mo</span>');
+        $('.germany6gbprice').html('<sup>$</sup>19.17 <span class="period">/mo</span>');
+        $('.germany8gbprice').html('<sup>$</sup>25.58 <span class="period">/mo</span>');
+        $('.germany16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".germany2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=16");
+        $(".germany4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=139");
+        $(".germany6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=annually&configoption[21]=166");
+        $(".germany8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=annually&configoption[27]=167");
+        $(".germany16gblink").attr("href", "");
+      });
+
+      $("#tmonthly-uk").click(function () {
+        $('#tmonthly-uk').addClass('active');
+        $('#tquarterly-uk').removeClass('active');
+        $('#thalfyearly-uk').removeClass('active');
+        $('#tyearly-uk').removeClass('active');
+        $('.uk2gbprice').html('<sup>$</sup>16.95 <span class="period">/mo</span>');
+        $('.uk4gbprice').html('<sup>$</sup>22.99 <span class="period">/mo</span>');
+        $('.uk6gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.uk8gbprice').html('<sup>$</sup>41.99 <span class="period">/mo</span>');
+        $('.uk16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".uk2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=17");
+        $(".uk4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=138");
+        $(".uk6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=monthly&configoption[21]=104");
+        $(".uk8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=monthly&configoption[27]=105");
+        $(".uk16gblink").attr("href", "");
+      });
+      $("#tquarterly-uk").click(function () {
+        $('#tquarterly-uk').addClass('active');
+        $('#tmonthly-uk').removeClass('active');
+        $('#thalfyearly-uk').removeClass('active');
+        $('#tyearly-uk').removeClass('active');
+        $('.uk2gbprice').html('<sup>$</sup>15.65 <span class="period">/mo</span>');
+        $('.uk4gbprice').html('<sup>$</sup>20.92 <span class="period">/mo</span>');
+        $('.uk6gbprice').html('<sup>$</sup>28.99 <span class="period">/mo</span>');
+        $('.uk8gbprice').html('<sup>$</sup>37.99 <span class="period">/mo</span>');
+        $('.uk16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".uk2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=17");
+        $(".uk4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=138");
+        $(".uk6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=quarterly&configoption[21]=104");
+        $(".uk8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=quarterly&configoption[27]=105");
+        $(".uk16gblink").attr("href", "");
+      });
+      $("#thalfyearly-uk").click(function () {
+        $('#thalfyearly-uk').addClass('active');
+        $('#tmonthly-uk').removeClass('active');
+        $('#tquarterly-uk').removeClass('active');
+        $('#tyearly-uk').removeClass('active');
+        $('.uk2gbprice').html('<sup>$</sup>14.38 <span class="period">/mo</span>');
+        $('.uk4gbprice').html('<sup>$</sup>19.50 <span class="period">/mo</span>');
+        $('.uk6gbprice').html('<sup>$</sup>27.50 <span class="period">/mo</span>');
+        $('.uk8gbprice').html('<sup>$</sup>35.99 <span class="period">/mo</span>');
+        $('.uk16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".uk2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=17");
+        $(".uk4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=138");
+        $(".uk6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=semiannually&configoption[21]=104");
+        $(".uk8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=semiannually&configoption[27]=105");
+        $(".uk16gblink").attr("href", "");
+      });
+      $("#tyearly-uk").click(function () {
+        $('#tyearly-uk').addClass('active');
+        $('#tmonthly-uk').removeClass('active');
+        $('#tquarterly-uk').removeClass('active');
+        $('#thalfyearly-uk').removeClass('active');
+        $('.uk2gbprice').html('<sup>$</sup>13.46 <span class="period">/mo</span>');
+        $('.uk4gbprice').html('<sup>$</sup>18.25 <span class="period">/mo</span>');
+        $('.uk6gbprice').html('<sup>$</sup>25.99 <span class="period">/mo</span>');
+        $('.uk8gbprice').html('<sup>$</sup>33.99 <span class="period">/mo</span>');
+        $('.uk16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".uk2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=17");
+        $(".uk4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=138");
+        $(".uk6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=annually&configoption[21]=104");
+        $(".uk8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=annually&configoption[27]=105");
+        $(".uk16gblink").attr("href", "");
+      });
+
+      $("#tmonthly-netherlands").click(function () {
+        $('#tmonthly-netherlands').addClass('active');
+        $('#tquarterly-netherlands').removeClass('active');
+        $('#thalfyearly-netherlands').removeClass('active');
+        $('#tyearly-netherlands').removeClass('active');
+        $('.netherlands2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+        $('.netherlands4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+        $('.netherlands6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.netherlands8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.netherlands16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".netherlands2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=106");
+        $(".netherlands4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=143");
+        $(".netherlands6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=monthly&configoption[21]=102");
+        $(".netherlands8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=monthly&configoption[27]=103");
+        $(".netherlands16gblink").attr("href", "");
+      });
+      $("#tquarterly-netherlands").click(function () {
+        $('#tquarterly-netherlands').addClass('active');
+        $('#tmonthly-netherlands').removeClass('active');
+        $('#thalfyearly-netherlands').removeClass('active');
+        $('#tyearly-netherlands').removeClass('active');
+        $('.netherlands2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+        $('.netherlands4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+        $('.netherlands6gbprice').html('<sup>$</sup>21.33 <span class="period">/mo</span>');
+        $('.netherlands8gbprice').html('<sup>$</sup>28.66 <span class="period">/mo</span>');
+        $('.netherlands16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".netherlands2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=106");
+        $(".netherlands4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=143");
+        $(".netherlands6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=quarterly&configoption[21]=102");
+        $(".netherlands8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=quarterly&configoption[27]=103");
+        $(".netherlands16gblink").attr("href", "");
+      });
+      $("#thalfyearly-netherlands").click(function () {
+        $('#thalfyearly-netherlands').addClass('active');
+        $('#tmonthly-netherlands').removeClass('active');
+        $('#tquarterly-netherlands').removeClass('active');
+        $('#tyearly-netherlands').removeClass('active');
+        $('.netherlands2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+        $('.netherlands4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+        $('.netherlands6gbprice').html('<sup>$</sup>20.33 <span class="period">/mo</span>');
+        $('.netherlands8gbprice').html('<sup>$</sup>27.17 <span class="period">/mo</span>');
+        $('.netherlands16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".netherlands2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=106");
+        $(".netherlands4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=143");
+        $(".netherlands6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=semiannually&configoption[21]=102");
+        $(".netherlands8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=semiannually&configoption[27]=103");
+        $(".netherlands16gblink").attr("href", "");
+      });
+      $("#tyearly-netherlands").click(function () {
+        $('#tyearly-netherlands').addClass('active');
+        $('#tmonthly-netherlands').removeClass('active');
+        $('#tquarterly-netherlands').removeClass('active');
+        $('#thalfyearly-netherlands').removeClass('active');
+        $('.netherlands2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+        $('.netherlands4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+        $('.netherlands6gbprice').html('<sup>$</sup>19.17 <span class="period">/mo</span>');
+        $('.netherlands8gbprice').html('<sup>$</sup>25.58 <span class="period">/mo</span>');
+        $('.netherlands16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".netherlands2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=106");
+        $(".netherlands4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=143");
+        $(".netherlands6gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=3&billingcycle=annually&configoption[21]=102");
+        $(".netherlands8gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=4&billingcycle=annually&configoption[27]=103");
+        $(".netherlands16gblink").attr("href", "");
+      });
+
+      $("#tmonthly-singapore").click(function () {
+        $('#tmonthly-singapore').addClass('active');
+        $('#tquarterly-singapore').removeClass('active');
+        $('#thalfyearly-singapore').removeClass('active');
+        $('#tyearly-singapore').removeClass('active');
+        $('.singapore2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+        $('.singapore4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+        $('.singapore6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.singapore8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.singapore16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".singapore2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=108");
+        $(".singapore4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=144");
+        $(".singapore6gblink").attr("href", "");
+        $(".singapore8gblink").attr("href", "");
+        $(".singapore16gblink").attr("href", "");
+      });
+      $("#tquarterly-singapore").click(function () {
+        $('#tquarterly-singapore').addClass('active');
+        $('#tmonthly-singapore').removeClass('active');
+        $('#thalfyearly-singapore').removeClass('active');
+        $('#tyearly-singapore').removeClass('active');
+        $('.singapore2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+        $('.singapore4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+        $('.singapore6gbprice').html('<sup>$</sup>21.33 <span class="period">/mo</span>');
+        $('.singapore8gbprice').html('<sup>$</sup>28.66 <span class="period">/mo</span>');
+        $('.singapore16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".singapore2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=108");
+        $(".singapore4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=144");
+        $(".singapore6gblink").attr("href", "http://www.google.com/");
+        $(".singapore8gblink").attr("href", "http://www.google.com/");
+        $(".singapore16gblink").attr("href", "http://www.google.com/");
+      });
+      $("#thalfyearly-singapore").click(function () {
+        $('#thalfyearly-singapore').addClass('active');
+        $('#tmonthly-singapore').removeClass('active');
+        $('#tquarterly-singapore').removeClass('active');
+        $('#tyearly-singapore').removeClass('active');
+        $('.singapore2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+        $('.singapore4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+        $('.singapore6gbprice').html('<sup>$</sup>20.33 <span class="period">/mo</span>');
+        $('.singapore8gbprice').html('<sup>$</sup>27.17 <span class="period">/mo</span>');
+        $('.singapore16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".singapore2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=108");
+        $(".singapore4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=144");
+        $(".singapore6gblink").attr("href", "");
+        $(".singapore8gblink").attr("href", "");
+        $(".singapore16gblink").attr("href", "");
+      });
+      $("#tyearly-singapore").click(function () {
+        $('#tyearly-singapore').addClass('active');
+        $('#tmonthly-singapore').removeClass('active');
+        $('#tquarterly-singapore').removeClass('active');
+        $('#thalfyearly-singapore').removeClass('active');
+        $('.singapore2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+        $('.singapore4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+        $('.singapore6gbprice').html('<sup>$</sup>19.17 <span class="period">/mo</span>');
+        $('.singapore8gbprice').html('<sup>$</sup>25.58 <span class="period">/mo</span>');
+        $('.singapore16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".singapore2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=108");
+        $(".singapore4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=144");
+        $(".singapore6gblink").attr("href", "");
+        $(".singapore8gblink").attr("href", "");
+        $(".singapore16gblink").attr("href", "");
+      });
+
+      $("#tmonthly-australia").click(function () {
+        $('#tmonthly-australia').addClass('active');
+        $('#tquarterly-australia').removeClass('active');
+        $('#thalfyearly-australia').removeClass('active');
+        $('#tyearly-australia').removeClass('active');
+        $('.australia2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+        $('.australia4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+        $('.australia6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.australia8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.australia16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".australia2gblink").attr("href", "");
+        $(".australia4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=145");
+        $(".australia6gblink").attr("href", "");
+        $(".australia8gblink").attr("href", "");
+        $(".australia16gblink").attr("href", "");
+      });
+      $("#tquarterly-australia").click(function () {
+        $('#tquarterly-australia').addClass('active');
+        $('#tmonthly-australia').removeClass('active');
+        $('#thalfyearly-australia').removeClass('active');
+        $('#tyearly-australia').removeClass('active');
+        $('.australia2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+        $('.australia4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+        $('.australia6gbprice').html('<sup>$</sup>21.33 <span class="period">/mo</span>');
+        $('.australia8gbprice').html('<sup>$</sup>28.66 <span class="period">/mo</span>');
+        $('.australia16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".australia2gblink").attr("href", "");
+        $(".australia4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=145");
+        $(".australia6gblink").attr("href", "");
+        $(".australia8gblink").attr("href", "");
+        $(".australia16gblink").attr("href", "");
+      });
+      $("#thalfyearly-australia").click(function () {
+        $('#thalfyearly-australia').addClass('active');
+        $('#tmonthly-australia').removeClass('active');
+        $('#tquarterly-australia').removeClass('active');
+        $('#tyearly-australia').removeClass('active');
+        $('.australia2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+        $('.australia4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+        $('.australia6gbprice').html('<sup>$</sup>20.33 <span class="period">/mo</span>');
+        $('.australia8gbprice').html('<sup>$</sup>27.17 <span class="period">/mo</span>');
+        $('.australia16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".australia2gblink").attr("href", "");
+        $(".australia4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=145");
+        $(".australia6gblink").attr("href", "");
+        $(".australia8gblink").attr("href", "");
+        $(".australia16gblink").attr("href", "");
+      });
+      $("#tyearly-australia").click(function () {
+        $('#tyearly-australia').addClass('active');
+        $('#tmonthly-australia').removeClass('active');
+        $('#tquarterly-australia').removeClass('active');
+        $('#thalfyearly-australia').removeClass('active');
+        $('.australia2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+        $('.australia4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+        $('.australia6gbprice').html('<sup>$</sup>17.17 <span class="period">/mo</span>');
+        $('.australia8gbprice').html('<sup>$</sup>25.58 <span class="period">/mo</span>');
+        $('.australia16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".australia2gblink").attr("href", "");
+        $(".australia4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=145");
+        $(".australia6gblink").attr("href", "");
+        $(".australia8gblink").attr("href", "");
+        $(".australia16gblink").attr("href", "");
+      });
+
+      $("#tmonthly-france").click(function () {
+        $('#tmonthly-france').addClass('active');
+        $('#tquarterly-france').removeClass('active');
+        $('#thalfyearly-france').removeClass('active');
+        $('#tyearly-france').removeClass('active');
+        $('.france2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+        $('.france4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+        $('.france6gbprice').html('<sup>$</sup>23.99 <span class="period">/mo</span>');
+        $('.france8gbprice').html('<sup>$</sup>31.99 <span class="period">/mo</span>');
+        $('.france16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".france2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=165");
+        $(".france4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=146");
+        $(".france6gblink").attr("href", "");
+        $(".france8gblink").attr("href", "");
+        $(".france16gblink").attr("href", "");
+      });
+      $("#tquarterly-france").click(function () {
+        $('#tquarterly-france').addClass('active');
+        $('#tmonthly-france').removeClass('active');
+        $('#thalfyearly-france').removeClass('active');
+        $('#tyearly-france').removeClass('active');
+        $('.france2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+        $('.france4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+        $('.france6gbprice').html('<sup>$</sup>21.33 <span class="period">/mo</span>');
+        $('.france8gbprice').html('<sup>$</sup>28.66 <span class="period">/mo</span>');
+        $('.france16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".france2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=165");
+        $(".france4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=146");
+        $(".france6gblink").attr("href", "");
+        $(".france8gblink").attr("href", "");
+        $(".france16gblink").attr("href", "");
+      });
+      $("#thalfyearly-france").click(function () {
+        $('#thalfyearly-france').addClass('active');
+        $('#tmonthly-france').removeClass('active');
+        $('#tquarterly-france').removeClass('active');
+        $('#tyearly-france').removeClass('active');
+        $('.france2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+        $('.france4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+        $('.france6gbprice').html('<sup>$</sup>20.33 <span class="period">/mo</span>');
+        $('.france8gbprice').html('<sup>$</sup>27.17 <span class="period">/mo</span>');
+        $('.france16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".france2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=165");
+        $(".france4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=146");
+        $(".france6gblink").attr("href", "");
+        $(".france8gblink").attr("href", "");
+        $(".france16gblink").attr("href", "");
+      });
+      $("#tyearly-france").click(function () {
+        $('#tyearly-france').addClass('active');
+        $('#tmonthly-france').removeClass('active');
+        $('#tquarterly-france').removeClass('active');
+        $('#thalfyearly-france').removeClass('active');
+        $('.france2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+        $('.france4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+        $('.france6gbprice').html('<sup>$</sup>19.17 <span class="period">/mo</span>');
+        $('.france8gbprice').html('<sup>$</sup>25.58 <span class="period">/mo</span>');
+        $('.france16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".france2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=165");
+        $(".france4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=146");
+        $(".france6gblink").attr("href", "");
+        $(".france8gblink").attr("href", "");
+        $(".france16gblink").attr("href", "");
+      });
+      $("#tmonthly-poland").click(function () {
+        $('#tmonthly-poland').addClass('active');
+        $('#tquarterly-poland').removeClass('active');
+        $('#thalfyearly-poland').removeClass('active');
+        $('#tyearly-poland').removeClass('active');
+        $('.poland2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+        $('.poland4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+        $('.poland6gbprice').html('<sup>$</sup>41.99 <span class="period">/mo</span>');
+        $('.poland8gbprice').html('<sup>$</sup>51.99 <span class="period">/mo</span>');
+        $('.poland16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+        $(".poland2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=134");
+        $(".poland4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=147");
+        $(".poland6gblink").attr("href", "");
+        $(".poland8gblink").attr("href", "");
+        $(".poland16gblink").attr("href", "");
+      });
+      $("#tquarterly-poland").click(function () {
+        $('#tquarterly-poland').addClass('active');
+        $('#tmonthly-poland').removeClass('active');
+        $('#thalfyearly-poland').removeClass('active');
+        $('#tyearly-poland').removeClass('active');
+        $('.poland2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+        $('.poland4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+        $('.poland6gbprice').html('<sup>$</sup>37.33 <span class="period">/mo</span>');
+        $('.poland8gbprice').html('<sup>$</sup>46.33 <span class="period">/mo</span>');
+        $('.poland16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+        $(".poland2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=134");
+        $(".poland4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=147");
+        $(".poland6gblink").attr("href", "");
+        $(".poland8gblink").attr("href", "");
+        $(".poland16gblink").attr("href", "");
+      });
+      $("#thalfyearly-poland").click(function () {
+        $('#thalfyearly-poland').addClass('active');
+        $('#tmonthly-poland').removeClass('active');
+        $('#tquarterly-poland').removeClass('active');
+        $('#tyearly-poland').removeClass('active');
+        $('.poland2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+        $('.poland4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+        $('.poland6gbprice').html('<sup>$</sup>34.99 <span class="period">/mo</span>');
+        $('.poland8gbprice').html('<sup>$</sup>43.50 <span class="period">/mo</span>');
+        $('.poland16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+        $(".poland2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=134");
+        $(".poland4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=147");
+        $(".poland6gblink").attr("href", "");
+        $(".poland8gblink").attr("href", "");
+        $(".poland16gblink").attr("href", "");
+      });
+      $("#tyearly-poland").click(function () {
+        $('#tyearly-poland').addClass('active');
+        $('#tmonthly-poland').removeClass('active');
+        $('#tquarterly-poland').removeClass('active');
+        $('#thalfyearly-poland').removeClass('active');
+        $('.poland2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+        $('.poland4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+        $('.poland6gbprice').html('<sup>$</sup>33.08 <span class="period">/mo</span>');
+        $('.poland8gbprice').html('<sup>$</sup>41.08 <span class="period">/mo</span>');
+        $('.poland16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+        $(".poland2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=134");
+        $(".poland4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=147");
+        $(".poland6gblink").attr("href", "");
+        $(".poland8gblink").attr("href", "");
+        $(".poland16gblink").attr("href", "");
+      });
+      $("#tmonthly-india").click(function () {
+            $('#tmonthly-india').addClass('active');
+            $('#tquarterly-india').removeClass('active');
+            $('#thalfyearly-india').removeClass('active');
+            $('#tyearly-india').removeClass('active');
+            $('.india2gbprice').html('<sup>$</sup>11.95 <span class="period">/mo</span>');
+            $('.india4gbprice').html('<sup>$</sup>16.99 <span class="period">/mo</span>');
+            $('.india6gbprice').html('<sup>$</sup>41.99 <span class="period">/mo</span>');
+            $('.india8gbprice').html('<sup>$</sup>51.99 <span class="period">/mo</span>');
+            $('.india16gbprice').html('<sup>$</sup>79.99 <span class="period">/mo</span>');
+            $(".india2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=monthly&configoption[9]=176");
+            $(".india4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=monthly&configoption[52]=177");
+            $(".india6gblink").attr("href", "");
+            $(".india8gblink").attr("href", "");
+            $(".india16gblink").attr("href", "");
+          });
+          $("#tquarterly-india").click(function () {
+            $('#tquarterly-india').addClass('active');
+            $('#tmonthly-india').removeClass('active');
+            $('#thalfyearly-india').removeClass('active');
+            $('#tyearly-india').removeClass('active');
+            $('.india2gbprice').html('<sup>$</sup>10.92 <span class="period">/mo</span>');
+            $('.india4gbprice').html('<sup>$</sup>14.92 <span class="period">/mo</span>');
+            $('.india6gbprice').html('<sup>$</sup>37.33 <span class="period">/mo</span>');
+            $('.india8gbprice').html('<sup>$</sup>46.33 <span class="period">/mo</span>');
+            $('.india16gbprice').html('<sup>$</sup>76.66 <span class="period">/mo</span>');
+            $(".india2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=quarterly&configoption[9]=176");
+            $(".india4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=quarterly&configoption[52]=177");
+            $(".india6gblink").attr("href", "");
+            $(".india8gblink").attr("href", "");
+            $(".india16gblink").attr("href", "");
+          });
+          $("#thalfyearly-india").click(function () {
+            $('#thalfyearly-india').addClass('active');
+            $('#tmonthly-india').removeClass('active');
+            $('#tquarterly-india').removeClass('active');
+            $('#tyearly-india').removeClass('active');
+            $('.india2gbprice').html('<sup>$</sup>10.16 <span class="period">/mo</span>');
+            $('.india4gbprice').html('<sup>$</sup>14.33 <span class="period">/mo</span>');
+            $('.india6gbprice').html('<sup>$</sup>34.99 <span class="period">/mo</span>');
+            $('.india8gbprice').html('<sup>$</sup>43.50 <span class="period">/mo</span>');
+            $('.india16gbprice').html('<sup>$</sup>74.99 <span class="period">/mo</span>');
+            $(".india2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=semiannually&configoption[9]=176");
+            $(".india4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=semiannually&configoption[52]=177");
+            $(".india6gblink").attr("href", "");
+            $(".india8gblink").attr("href", "");
+            $(".india16gblink").attr("href", "");
+          });
+          $("#tyearly-india").click(function () {
+            $('#tyearly-india').addClass('active');
+            $('#tmonthly-india').removeClass('active');
+            $('#tquarterly-india').removeClass('active');
+            $('#thalfyearly-india').removeClass('active');
+            $('.india2gbprice').html('<sup>$</sup>9.50 <span class="period">/mo</span>');
+            $('.india4gbprice').html('<sup>$</sup>13.58 <span class="period">/mo</span>');
+            $('.india6gbprice').html('<sup>$</sup>33.08 <span class="period">/mo</span>');
+            $('.india8gbprice').html('<sup>$</sup>41.08 <span class="period">/mo</span>');
+            $('.india16gbprice').html('<sup>$</sup>66.67 <span class="period">/mo</span>');
+            $(".india2gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=5&billingcycle=annually&configoption[9]=176");
+            $(".india4gblink").attr("href", "https://SHIeD3Q6UGdU.net/cart.php?a=add&pid=2&billingcycle=annually&configoption[52]=177");
+            $(".india6gblink").attr("href", "");
+            $(".india8gblink").attr("href", "");
+            $(".india16gblink").attr("href", "");
+          });
+    });
+  </script>
+  
+</body></html>

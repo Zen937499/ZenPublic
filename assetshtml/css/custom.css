@@ -1,0 +1,182 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+.popover {
+
+
+    width: 275px !important;
+    border: none !important;
+    background-color: transparent !important;
+
+}
+
+.popover-title {
+    background-color: #ee5586;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 1px solid #6c6c6c40;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.popover-content {
+    background-color: #101920;
+    color: #fff;
+    padding: 15px;
+    line-height: 28px;
+    border-radius: 0;
+    border: 2px solid #ee5586;
+    font-weight: bold;
+}
+
+.popoverlinkown {
+    color: #fff !important;
+}
+.list-inline-item {display:inline-block}
+ .list-inline-item:not(:last-child){margin-right:.5rem}.initialism{font-size:90%;text-transform:uppercase}.blockquote{margin-bottom:1rem;font-size:1.25rem}.blockquote-footer{display:block;font-size:80%;color:#6c757d}.blockquote-footer::before{content:"\2014 \00A0"}
+ .hx-bnr-list {
+    display: flex;
+    align-items: center;
+
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+.hx-bnr-list img {
+    width: 36px;
+    height: 36px
+}
+.hx-bnr-list p {
+    font-size: 13px;
+    letter-spacing: .32px;
+    line-height: 19px;
+    color: #0a1b11;
+    font-weight: 600;
+    font-family: Poppins;
+    padding-left: 16px;
+    margin-bottom: 0;
+    text-align: left
+}
+@media (max-width: 480px) {
+.hx-bnr-list {
+  display: block;
+  text-align: center;
+  padding: 0px;;
+}
+.business-block .hx-business-list li, .hx-business-block .hx-business-list li {
+  width: 32%;
+}}
+@media only screen and (max-width: 1024px) {
+@media (max-width: 480px) {
+.hx-bnr-list p {
+text-align: center;
+font-size: 12px;
+font-weight: normal;
+padding: 0px 5px;
+} }}
+@media (max-width: 480px) {
+.hx-bnr-list img {
+  margin-bottom: 8px;
+  text-align: center;
+}}
+@media (max-width: 480px){
+.hx-box {
+  text-align: center;
+}}
+.section-heading-highlighter {
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+    font-weight: 600;
+    font-family: Poppins;
+    display: inline-block;
+    background-color: #fdd700;
+    padding: 0 12px;
+    margin-bottom:15px;
+}
+.section-heading-plans {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom:15px;
+}
+.section-heading-description {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+    display: inline-block;
+    margin-bottom:15px;
+}
+.only-desktop-paragraph {
+    font-size: 15px;
+    letter-spacing: .04em;
+    line-height: 24px;
+    color: #000;
+    font-weight: 500;
+    font-family: Poppins;   
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 480px){
+h2.section-heading {
+  font-size:22px !important;
+  line-height: 25px !important;
+}
+.only-desktop-paragraph {
+    display: none;
+}
+.section-heading-highlighter {
+    font-size: 13px;
+    line-height: 25px;
+    padding: 0 12px;
+    margin-bottom:10px;
+}
+#drop-lng {
+    display:none;
+}
+.section-heading-plans {
+    font-size: 13px;
+    line-height: 20px;
+}
+.section-heading-description {
+    font-size: 13px;
+    line-height: 20px;
+}
+}
+.badge img {
+    width:16px;
+    vertical-align: baseline;
+    box-shadow: 0 2px 8px 0 rgb(62 62 79 / 12%);
+}
+.badge p {
+    color:#4c4a4a;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size:16px;
+}
+.btnpricingtable {
+   padding: 8px 15px !important;
+   margin-top: 0px !important;
+   font-weight: 500 !important;
+   font-size: 14px !important;
+}
+
+.pricingtablesvg {
+    height: 32px !important;
+    width: 32px !important;
+  }

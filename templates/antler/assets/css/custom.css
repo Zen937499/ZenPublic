@@ -1,0 +1,54 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+
+. ***********************************
+.maping .datacenters {
+
+    -webkit-animation: pulsate 2s linear;
+    animation: pulsate 2s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+****************** */
+.maping .datacenters {
+
+    -webkit-animation: pulsate 2s linear;
+    animation: pulsate 2s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.product .product-desc {padding: 25px 20px 40px 20px !important;}
+
+.input-group {
+    display:block !important;
+}
+.fade.show{
+opacity: 1;
+}
+ 
+.modal.fade.show{
+background-color: rgba(0,0,0,.8);
+z-index: 9999;
+}
+ 
+.modal.show .modal-dialog{
+-webkit-transform: translate(0,0);
+-ms-transform: translate(0,0);
+-o-transform: translate(0,0);
+transform: translate(0,0);
+}
+
+
+
